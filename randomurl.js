@@ -26,11 +26,11 @@
     if (input.value != "") {
 var x=Math.floor((Math.random()*4)+ 1);
 var xxx=null;
-if(x=="1"){xxx="11/17-manfaat-strawberry-bagi-kesehatan.html"}
-if(x=="2"){xxx="11/manfaat-skipping-lompat-tali-bagi.html"}
-if(x=="3"){xxx="11/17-manfaat-strawberry-bagi-kesehatan.html"}
-if(x=="4"){xxx="11/manfaat-skipping-lompat-tali-bagi.html"}
-output.value = "https://gognanan.blogspot.com/2017/"+xxx+"?url=" + Base64.encode(this.value); //change with your link
+if(x=="1"){xxx="2017/11/17-manfaat-strawberry-bagi-kesehatan.html"}
+if(x=="2"){xxx="2017/11/manfaat-skipping-lompat-tali-bagi.html"}
+if(x=="3"){xxx="2017/11/17-manfaat-strawberry-bagi-kesehatan.html"}
+if(x=="4"){xxx="2017/11/manfaat-skipping-lompat-tali-bagi.html"}
+output.value = "https://gognanan.blogspot.com/"+xxx+"?url=" + Base64.encode(this.value); //change with your link
     } else {
       output.value = "";
     }
